@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Allure-Reporting-orange?logo=allure" alt="Allure"/>
   <img src="https://img.shields.io/badge/Node.js-21.7.1-green?logo=node.js" alt="Node.js"/>
   <img src="https://img.shields.io/github/last-commit/melihberk/iyzico-cypress-study?color=blue" alt="Last Commit"/>
-  <img src="https://img.shields.io/github/license/melihberk/iyzico-cypress-study" alt="License"/>
+  
 </p>
 
 
@@ -21,8 +21,8 @@
 
 - [📘 Proje Açıklaması](#proje-açıklaması)
 - [✅ Kurulum](#kurulum)
-- [✅ Komutlar](#komutlar)
-- [✅ Test Senaryoları](#test-senaryoları)
+- [✅ Komutlar](#-komutlar)
+- [✅ Test Senaryoları](#test-senaryolari)
 - [📊 Raporlama – Allure Reporter](#raporlama--allure-reporter)
 - [📁 Proje Klasör Yapısı](#proje-klasör-yapısı)
 - [📚 Kaynaklar](#kaynaklar)
@@ -41,7 +41,7 @@ Proje kapsamında iki farklı ödeme senaryosu test edilmektedir:
 Ayrıca, **Cucumber (Gherkin)** formatı kullanılarak davranışa dayalı senaryolar yazılmıştır, senaryolar **etiket (tag)** desteğiyle gruplandırılmıştır ve **Allure Reporter** entegrasyonu ile görsel test raporları oluşturulmuştur.
 
 
-## ✅ Kurulum
+## 📁 Kurulum
 
 1️⃣ Node.js ve NPM
 
@@ -88,7 +88,7 @@ Prettier Code Formatter >
 Kod biçimlendirme ve okunabilirlik
 
 
-## ✅ Komutlar
+## 📁 Komutlar
 
 Aşağıda projeyi başlatmak ve testleri çalıştırmak için tanımlanmış npm komutları ve açıklamaları yer almaktadır.
 
@@ -104,7 +104,7 @@ npm run browser:chrome:tag > Belirli tag’e sahip senaryoları Chrome’da çal
 npm run report:allure > allure-results klasöründen test sonuçlarını alır, allure-report dizinine rapor oluşturur ve tarayıcıda açar.
 
 
-## ✅ Test Senaryoları
+## 📁 Test Senaryolari
 
 Projede, Iyzico demo sayfası üzerinden iki farklı ödeme tipi için test senaryoları yazılmıştır.  
 Bu senaryolara `cypress/e2e/iyzico/payment.feature` dosyasından ulaşabilirsiniz.
@@ -208,7 +208,7 @@ Proje, Cypress ve Cucumber mimarisine uygun olarak yapılandırılmıştır.
 Aşağıda klasör yapısı ve içerdiği dosyaların açıklamaları yer almaktadır:
 
 
-[![Image](https://i.hizliresim.com/el7t24i.png)](https://hizliresim.com/el7t24i)
+![Proje Yapısı](docs/proje-yapisi.png)
 
 
 
