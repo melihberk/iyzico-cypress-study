@@ -23,7 +23,7 @@
 - [✅ Kurulum](#-kurulum)
 - [✅ Komutlar](#-komutlar)
 - [✅ Test Senaryoları](#-test-senaryolari)
-- [📊 Raporlama – Allure Reporter](#raporlama-allure-reporter)
+- [📊 Raporlama – Allure Reporter](#user-content--raporlama---allure-reporter)
 - [📁 Proje Klasor Yapisi](#proje-klasor-yapisi)
 - [📚 Kaynaklar](#-kaynaklar)
 - [🙏 Teşekkürler](#-teşekkürler)
