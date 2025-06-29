@@ -50,7 +50,7 @@ Ayrıca, **Cucumber (Gherkin)** formatı kullanılarak davranışa dayalı senar
       node -v
       npm -v
 
----
+
 2️⃣ Projeyi Klonla ve Bağımlılıkları Kur
 
 git clone https://github.com/melihberk/iyzico-cypress-study.git
@@ -58,7 +58,7 @@ git clone https://github.com/melihberk/iyzico-cypress-study.git
 cd iyzico-cypress-study
 
 npm install
----
+
 3️⃣ Cypress ve Gherkin Kütüphaneleri
 
 .feature dosyalarının koşturulabilmesi için bu yapı zorunludur.
@@ -69,13 +69,13 @@ npm install --save-dev @badeball/cypress-cucumber-preprocessor
 
 npm install --save-dev @bahmutov/cypress-esbuild-preprocessor
 
----
+
 4️⃣ Tag Bazlı Test Çalıştırma
 
 Senaryoları tag kullanarak koşmak için şu paketi yükle:
 
 npm install --save-dev cypress-tags
----
+
 5️⃣ Önerilen VSCode Eklentileri
 
 Cucumber (Gherkin) Full Support >
@@ -114,7 +114,6 @@ Bu senaryolara `cypress/e2e/iyzico/payment.feature` dosyasından ulaşabilirsini
 - **Kayıtlı kredi kartı ile ödeme**
 - **Test kredi kartı ile “İyzico ile Öde” seçeneği üzerinden ödeme**
 
----
 
 ### 💳 Test Kartı Bilgileri
 
@@ -131,7 +130,7 @@ Test kartı bilgileri ve gerekli doğrulama kodları, Iyzico tarafından sağlan
 
 🔗 Daha fazla test kartı için: [Iyzico Test Kartları](https://docs.iyzico.com/ek-bilgiler/test-kartlari)
 
----
+
 
 ### 🧠 Step Definition'da Kullanılan Cypress Metotları
 
@@ -179,7 +178,6 @@ npm run browser:chrome:tag
 > `@payment` gibi bir tag verilmişse sadece o senaryolar çalıştırılır.  
 > Aynı zamanda `allure-results` klasörüne rapor çıktısı oluşturur.
 
----
 
 - **Allure raporunu oluştur ve tarayıcıda aç:**
 
@@ -199,7 +197,7 @@ Aşağıda örnek bir Allure test raporu ekran görüntüsü yer almaktadır:
 
 > Rapor sayesinde her test adımını, sürelerini, hata mesajlarını ve geçmiş çalışmaları kolayca analiz edebilirsiniz.
 
-
+---
 
 
 ## 📁 Proje Klasor Yapisi
@@ -252,7 +250,7 @@ Aşağıda proje klasörlerinin ne işe yaradığını kısa ve anlaşılır şe
 - `README.md`  
   Bu dökümantasyon dosyası. Projeye ait kurulum, kullanım ve açıklamaları içerir.
 
-
+---
 ## 📚 Kaynaklar
 
 Projede kullanılan araçlar, ilham alınan içerikler ve geliştirici dokümantasyonları aşağıda listelenmiştir:
