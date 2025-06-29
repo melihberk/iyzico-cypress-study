@@ -19,14 +19,14 @@
 
 ## 📂 İçindekiler
 
-- [📘 Proje Açıklaması](#proje-açıklaması)
-- [✅ Kurulum](#kurulum)
+- [📘 Proje Açıklaması](#-projeaçıklaması)
+- [✅ Kurulum](#-kurulum)
 - [✅ Komutlar](#-komutlar)
-- [✅ Test Senaryoları](#test-senaryolari)
-- [📊 Raporlama – Allure Reporter](#raporlama--allure-reporter)
-- [📁 Proje Klasör Yapısı](#proje-klasör-yapısı)
-- [📚 Kaynaklar](#kaynaklar)
-- [🙏 Teşekkürler](#teşekkürler)
+- [✅ Test Senaryoları](#-testsenaryolari)
+- [📊 Raporlama – Allure Reporter](#-raporlamaallurreporter)
+- [📁 Proje Klasör Yapısı](#projeklasöryapısı)
+- [📚 Kaynaklar](#-kaynaklar)
+- [🙏 Teşekkürler](#-teşekkürler)
 
 
 ## 📘 Proje Açıklaması
