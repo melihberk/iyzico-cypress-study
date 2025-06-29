@@ -19,17 +19,17 @@
 
 ## 📂 İçindekiler
 
-- [📘 Proje Açıklamasi](#proje-açıklaması)
+- [📘 Proje Açiklamasi](#proje-aciklamasi)
 - [✅ Kurulum](#-kurulum)
 - [✅ Komutlar](#-komutlar)
 - [✅ Test Senaryoları](#-test-senaryolari)
-- [📊 Raporlama – Allure Reporter](#raporlama--allure-reporter)
-- [📁 Proje Klasör Yapısı](#proje-klasor-yapisi)
+- [📊 Raporlama – Allure Reporter](#raporlama-allure-reporter)
+- [📁 Proje Klasor Yapisi](#proje-klasor-yapisi)
 - [📚 Kaynaklar](#-kaynaklar)
 - [🙏 Teşekkürler](#-teşekkürler)
 
 
-## 📘 Proje Açıklaması
+## 📘 Proje Açiklamasi
 
 Bu proje, [Iyzico](https://www.iyzico.com/demo/) demo ödeme sayfası üzerinde uçtan uca (end-to-end) testlerin **Cypress** test otomasyon aracı kullanılarak yazılmasını amaçlamaktadır.
 
@@ -149,7 +149,7 @@ Test adımlarını tanımlarken aşağıdaki Cypress komutları ve yapıları ku
 Tüm adımlar `cypress/e2e/iyzico/paymentSteps.js` dosyasında tanımlanmıştır.
 
 
-## 📊 Raporlama – Allure Reporter
+## 📊 Raporlama - Allure Reporter
 
 Projede test sonuçlarını detaylı ve görsel olarak inceleyebilmek için **Allure Reporter** entegrasyonu kullanılmıştır.
 
@@ -202,7 +202,7 @@ Aşağıda örnek bir Allure test raporu ekran görüntüsü yer almaktadır:
 
 
 
-## 📁 Proje Klasör Yapısı
+## 📁 Proje Klasor Yapisi
 
 Proje, Cypress ve Cucumber mimarisine uygun olarak yapılandırılmıştır.  
 Aşağıda klasör yapısı ve içerdiği dosyaların açıklamaları yer almaktadır:
