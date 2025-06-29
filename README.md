@@ -17,6 +17,18 @@
 <h1 align="center">Iyzico Cypress E2E Test Projesi</h1>
 
 
+## 📂 İçindekiler
+
+- [📘 Proje Açıklaması](#-proje-açıklaması)
+- [✅ Kurulum](#-kurulum)
+- [✅ Komutlar](-#komutlar)
+- [✅ Test Senaryoları](-#test-senaryoları)
+- [📊 Raporlama – Allure Reporter](#-raporlama--allure-reporter)
+- [📁 Proje Klasör Yapısı](#-proje-klasör-yapısı)
+- [📚 Kaynaklar](#-kaynaklar)
+- [🙏 Teşekkürler](#-teşekkürler)
+
+
 ## 📘 Proje Açıklaması
 
 Bu proje, [Iyzico](https://www.iyzico.com/demo/) demo ödeme sayfası üzerinde uçtan uca (end-to-end) testlerin **Cypress** test otomasyon aracı kullanılarak yazılmasını amaçlamaktadır.
@@ -27,19 +39,6 @@ Proje kapsamında iki farklı ödeme senaryosu test edilmektedir:
 - Yeni bir test kartı ile ödeme yapma
 
 Ayrıca, **Cucumber (Gherkin)** formatı kullanılarak davranışa dayalı senaryolar yazılmıştır, senaryolar **etiket (tag)** desteğiyle gruplandırılmıştır ve **Allure Reporter** entegrasyonu ile görsel test raporları oluşturulmuştur.
-
-
-## 📂 İçindekiler
-
-- [📘 Proje Açıklaması](#-proje-açıklaması)
-- [✅ Kurulum](#kurulum)
-- [✅ Komutlar](#komutlar)
-- [✅ Test Senaryoları](#test-senaryoları)
-- [📊 Raporlama – Allure Reporter](#-raporlama--allure-reporter)
-- [📁 Proje Klasör Yapısı](#-proje-klasör-yapısı)
-- [📚 Kaynaklar](#-kaynaklar)
-- [🙏 Teşekkürler](#-teşekkürler)
-
 
 
 ## ✅ Kurulum
