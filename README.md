@@ -271,9 +271,9 @@ Projede kullanılan araçlar, ilham alınan içerikler ve geliştirici dokümant
 - 🧪 **Allure Commandline**  
   https://docs.qameta.io/allure/
 
-- 💳 **Iyzico Demo ve Test Ortamı** *(isteğe bağlı)*  
+- 💳 **Iyzico Demo ve Test Ortamı**   
   https://www.iyzico.com/demo  
-  → Test kart bilgileri bu demo ortam üzerinden sağlanmıştır.
+  https://docs.iyzico.com/ek-bilgiler/test-kartlari
 
  >Bu kaynaklar, hem proje geliştirme sürecinde kullanıldı hem de yeni başlayanlar için referans niteliğindedir.
 ---
