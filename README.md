@@ -202,11 +202,13 @@ Aşağıda örnek bir Allure test raporu ekran görüntüsü yer almaktadır:
 
 ## 📁 Proje Klasor Yapisi
 
-Proje, Cypress ve Cucumber mimarisine uygun olarak yapılandırılmıştır.  
-Aşağıda klasör yapısı ve içerdiği dosyaların açıklamaları yer almaktadır:
+Proje, Cypress ve Cucumber (Gherkin) mimarisine uygun şekilde yapılandırılmıştır.
+Ayrıca testlerin daha sürdürülebilir ve okunabilir olması için Page Object Model (POM) yaklaşımı benimsenmiştir.
 
 
-![Proje Yapısı](docs/proje-yapisi.png)
+<p align="center">
+  <img src="docs/proje-yapisi.png" alt="Proje Yapısı" width="300"/>
+</p>
 
 
 
@@ -222,6 +224,18 @@ Aşağıda proje klasörlerinin ne işe yaradığını kısa ve anlaşılır şe
 
 - `payment.feature`  
   Gherkin sözdizimiyle yazılmış ödeme senaryoları.
+
+- `pageObjects/cartPage.js`  
+  Sepet işlemlerini kapsar.
+
+- `pageObjects/checkoutPage.js`  
+  Ödeme ekranındaki işlemleri kapsar.
+
+- `pageObjects/paymentPage.js`  
+  Iyzico ödeme iframe'i içinde yapılan tüm işlemler burada yer alır.
+
+- `pageObjects/productPage.js`  
+  Ürün listeleme ve ürün seçimi işlemleri buradan yönetilir.
 
 - `paymentSteps.js`  
   `payment.feature` içindeki adımların karşılık geldiği JavaScript fonksiyonları.
